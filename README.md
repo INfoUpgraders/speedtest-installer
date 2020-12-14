@@ -6,13 +6,13 @@
 ### How to install the script
 
 ```
-sudo apt-get install git
+sudo apt-get install git 
 
-git clone https://github.com/INfoUpgraders/speedtest-installer
+git clone https://github.com/INfoUpgraders/speedtest-installer 
 
-cd speedtest-installer
+cd speedtest-installer 
 
-sudo chmod +x ./install.sh
+sudo chmod +x ./install.sh 
 
-sudo ./install.sh
+sudo ./install.sh 
 ```
