@@ -5,8 +5,14 @@
 ## Install
 ### How to install the script
 
-#### sudo apt-get install git
-#### git clone https://github.com/INfoUpgraders/speedtest-installer
-#### cd speedtest-installer
-#### chmod +x ./install.sh
-#### ./install.sh
+```
+sudo apt-get install git
+
+git clone https://github.com/INfoUpgraders/speedtest-installer
+
+cd speedtest-installer
+
+chmod +x ./install.sh
+
+./install.sh
+```
