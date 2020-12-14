@@ -1,7 +1,7 @@
 # speedtest-installer
 ### Easily Install the Speedtest CLI through a bash script
 
-# Install
+## Install
 ### How to install the script
 
 #### sudo apt-get install git
