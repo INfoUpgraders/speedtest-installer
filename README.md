@@ -1,6 +1,7 @@
 # speedtest-installer
 ### Easily Install the Speedtest CLI through a bash script
 
+
 ## Install
 ### How to install the script
 
