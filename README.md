@@ -12,7 +12,7 @@ git clone https://github.com/INfoUpgraders/speedtest-installer
 
 cd speedtest-installer
 
-chmod +x ./install.sh
+sudo chmod +x ./install.sh
 
-./install.sh
+sudo ./install.sh
 ```
