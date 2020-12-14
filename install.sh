@@ -10,4 +10,7 @@ sudo apt-get -y update
 
 sudo apt-get install -y speedtest
 
+sudo apt autoremove -y
+
+echo ""
 echo "Speedtest installed. You can now run 'speedtest' to run a speedtest on your system."
