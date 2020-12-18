@@ -63,7 +63,7 @@ else
         speedtest -V
         #-------------------------------------------------
     else
-        echo "${CYAN} Non-compatible installation detected. Yum/pkg/apt were not found in path."
+        echo "${CYAN} Non-compatible installation detected. Yum/pkg/apt/brew were not found in path."
     fi
 fi
 echo "${RESET} "
