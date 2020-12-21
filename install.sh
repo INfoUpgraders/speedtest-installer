@@ -1,6 +1,6 @@
 RESET='\033[0m'
 CYAN='\033[0;36m'
-APT_KEY='379CE192D401AB61'
+APT_KEY='0x379CE192D401AB61'
 BRK="echo "${CYAN}---------------------------------------------------------------""
 if [ -x "$(command -v speedtest)" ]; then
     ${BRK}
