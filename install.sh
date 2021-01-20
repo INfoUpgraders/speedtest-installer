@@ -12,6 +12,7 @@ else
     then
         echo "${CYAN}Detected Ubuntu/Debian installation."
         sleep 2
+        apt-get update -y > /dev/null
         apt-get install gnupg1 apt-transport-https dirmngr -y > /dev/null
         apt-key adv --keyserver keyserver.ubuntu.com --recv-keys $APT_KEY 
         echo "deb https://ookla.bintray.com/debian generic main" | tee  /etc/apt/sources.list.d/speedtest.list
