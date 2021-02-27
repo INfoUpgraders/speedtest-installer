@@ -3,16 +3,24 @@
 
 
 ## Installation
-### How to install the script
 
+### For MacOS
 ```
-sudo apt-get install git 
-
-git clone https://github.com/INfoUpgraders/speedtest-installer 
-
-cd speedtest-installer 
-
-sudo chmod +x ./install.sh 
-
-sudo ./install.sh 
+   brew install curl
+   curl https://raw.githubusercontent.com/YajTPG/speedtest-installer/main/install.sh | sh
+```
+### For Ubuntu/Debian
+```
+   apt-get install curl -y
+   curl https://raw.githubusercontent.com/YajTPG/speedtest-installer/main/install.sh | sh
+```
+### For CentOS
+```
+   yum install curl -y
+   curl https://raw.githubusercontent.com/YajTPG/speedtest-installer/main/install.sh | sh
+```
+### For FreeBSD
+```
+   pkg install -y curl
+   curl https://raw.githubusercontent.com/YajTPG/speedtest-installer/main/install.sh | sh
 ```
